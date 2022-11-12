@@ -353,6 +353,32 @@ body {
     margin-bottom: 3rem;
   }
 
+  // slide
+
+  .move {
+    // height: 100vw;
+    // max-height: 25rem;
+    min-height: 100%;
+    text-align: center;
+    border-width: 3rem;
+    border-style: solid;
+    border-color: $color-primary;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // &-img {
+    //     // min-height: auto;
+    //     // width: auto;
+    // }
+    &s{        
+        width: 10%;
+        height: 100%;
+        // height: 100%;
+        // transform: scale(.9);
+    }
+  }
+
   // btn section
 
   .btn, .btn:link, .btn:visited {
@@ -447,3 +473,4 @@ body {
 .mb-8 { margin-bottom: 8rem;}
 .mb-9 { margin-bottom: 9rem;}
 .mb-10 { margin-bottom: 10rem;}
+.bgcolor{background-color: red;}

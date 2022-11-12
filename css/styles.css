@@ -347,6 +347,22 @@ body {
   margin-bottom: 3rem;
 }
 
+.move {
+  min-height: 100%;
+  text-align: center;
+  border-width: 3rem;
+  border-style: solid;
+  border-color: #55c57a;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.moves {
+  width: 10%;
+  height: 100%;
+}
+
 .btn, .btn:link, .btn:visited {
   text-decoration: none;
   padding: 1rem 2.5rem;
@@ -477,4 +493,8 @@ body {
 
 .mb-10 {
   margin-bottom: 10rem;
+}
+
+.bgcolor {
+  background-color: red;
 }/*# sourceMappingURL=styles.css.map */
